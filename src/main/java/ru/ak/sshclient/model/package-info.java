@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-@javax.xml.bind.annotation.XmlSchema(namespace = "http://model.sftp.ak.ru/",
+@javax.xml.bind.annotation.XmlSchema(namespace = "http://model.sshclient.ak.ru/",
  elementFormDefault = javax.xml.bind.annotation.XmlNsForm.QUALIFIED)
 
 
