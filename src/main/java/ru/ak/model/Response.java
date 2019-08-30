@@ -1,27 +1,23 @@
-package ru.ak.sshclient.model;
+package ru.ak.model;
 
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlElementWrapper;
-import java.util.List;
 
-@XmlAccessorType(XmlAccessType.FIELD)
 public class Response {
 
 	private Object object;
 	private boolean error;
 	private String description;
 
-    public Response() {
-    }
+    public Response() {}
 
     public Response(Object object, boolean error, String description) {
+        this();
         this.object = object;
         this.error = error;
         this.description = description;
     }
 
+    @XmlElement
     public Object getResult() {
         return object;
     }
@@ -30,6 +26,7 @@ public class Response {
         this.object = object;
     }
 
+    @XmlElement
     public boolean isError() {
         return error;
     }
@@ -38,6 +35,7 @@ public class Response {
         this.error = error;
     }
 
+    @XmlElement
     public String getDescription() {
         return description;
     }
@@ -45,5 +43,4 @@ public class Response {
     public void setDescription(String description) {
         this.description = description;
     }
-
 }

@@ -1,4 +1,4 @@
-package ru.ak.sshclient.model;
+package ru.ak.model;
 
 /**
  * Описание соединения к хосту

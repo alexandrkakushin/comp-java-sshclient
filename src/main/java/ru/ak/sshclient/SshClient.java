@@ -1,9 +1,9 @@
 package ru.ak.sshclient;
 
 import com.jcraft.jsch.*;
-import ru.ak.sshclient.model.Connection;
-import ru.ak.sshclient.model.Response;
-import ru.ak.sshclient.model.Tunnel;
+import ru.ak.model.Connection;
+import ru.ak.model.Response;
+import ru.ak.model.Tunnel;
 
 import javax.jws.WebMethod;
 import javax.jws.WebParam;
