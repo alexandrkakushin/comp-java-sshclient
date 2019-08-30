@@ -79,7 +79,7 @@ public class SshClient {
             session.disconnect();
             response.setResult(true);
 
-            sessions.remove(uuid);
+            sessions.remove(UUID.fromString(uuid));
         }
         return response;
     }
