@@ -1,6 +1,5 @@
 package ru.ak.info;
 
-import ru.ak.model.Build;
 import ru.ak.sshclient.SshClient;
 
 import java.util.ArrayList;
